@@ -41,7 +41,7 @@ while True:
         velocity=-velocity
     if y2<=30:
         velocity=+velocity
-    screen.blit(background)
+    screen.blit(background,(0,0))
     pygame.draw.circle(screen,WHITE ,(150,y1),15)
     pygame.draw.circle(screen,WHITE ,(250,y2),15)
     pygame.display.update()
