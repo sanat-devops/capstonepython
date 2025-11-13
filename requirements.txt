@@ -1,1 +1,2 @@
-RUN pip install --no-cache-dir flask pytest
+flask
+pytest
